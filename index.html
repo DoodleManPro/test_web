@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Link for different files and CDNs ------------------------------------------------------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- Icon for the top ------------------------------------------------------------------------>
+    <link rel="icon" href="images/logo.png">
+
+    <!-- Title of the Website -------------------------------------------------------------------->
+    <title>Grade 6-12 Website</title>
+
+</head>
+<body> 
+    <!-- Logo and Menu ------------------------------------------------------------------------------->
+    <img src="images/logo.png" id="logo">
+    <div class="menu-bg open"><ion-icon name="apps-outline" class="menu open"></ion-icon></div>
+    <nav class="navbar">
+        <div class="menuabs close"><ion-icon name="arrow-forward-outline" class="menu close"></ion-icon></div>
+        <ul class="navlist">
+            <li class="navitem"><a href="#home" class="navlink">Home</a></li>
+            <li class="navitem"><a href="#classes" class="navlink">Classes</a></li>
+            <li class="navitem"><a href="#notes" class="navlink">Note App</a></li>
+            <li class="navitem"><a href="#upload" class="navlink">How do i upload?</a></li>
+            <br><br>
+            <li class="navitem"><a href="https://www.youtube.com/channel/UC1mk0CwguNbt5PTxnVufmLQ/videos" target="_blank" class="navlink">Virtual Assembly</a></li>
+            <li class="navitem"><a href="http://ict.dunesinternationalschool.com/RPSM/" target="_blank" class="navlink">School Portal</a></li>
+        </ul>
+    </nav>
+    <div class="click-out"></div>
+
+    <!-- Home_Page ------------------------------------------------------------------------------->
+    <section class="container home-page" id="home">
+        <div class="heading home-heading">
+            <h1>CLASS 6-12</h1>
+            <div class="divider"></div>
+            <h3 class="tagline tg1">Academic Session (2021-2022)</h3>
+            <h3 class="tagline tg2">Dunes International School</h3>
+        </section>
+
+    <!-- Classes Page ------------------------------------------------------------------------------->
+    <section class="container class-page" id="classes">
+        <div class="heading common-heading classes-heading">
+            <h1 class="gold animate-top">Classrooms</h1>
+            <h3 class="black animate-bottom600">ENTER YOUR CLASSS BELOW</h3>
+        </div>
+        <div class="door-row">
+            <a href="./classes/class6.html " target="_blank" >
+                <img src="images/doors/door_6.png" class="door-6 close-door animate-left">
+                <img src="images/doors/open/door6.png" class="door-6 open-door animate-left">
+            </a>
+            <a href="./classes/class7.html " target="_blank" >
+                <img src="images/doors/door_7.png" class="door-7 close-door animate-left">
+                <img src="images/doors/open/door7.png" class="door-7 open-door animate-left">
+            </a>
+            <a href="./classes/class8.html " target="_blank" >
+                <img src="images/doors/door_8.png" class="door-8 close-door animate-left">
+                <img src="images/doors/open/door8.png" class="door-8 open-door animate-left">
+            </a>
+            <a href="./classes/class9.html " target="_blank" >
+                <img src="images/doors/door_9.png" class="door-9 close-door animate-left">
+                <img src="images/doors/open/door9.png" class="door-9 open-door animate-left">
+            </a>
+        </div>
+        <div class="door-row">
+            <a href="./classes/class10.html " target="_blank" >
+                <img src="images/doors/door_10.png" class="door-10 close-door animate-left">
+                <img src="images/doors/open/door10.png" class="door-10 open-door animate-left">
+            </a>
+            <a href="./classes/class11.html " target="_blank" >
+                <img src="images/doors/door_11.png" class="door-11 close-door animate-left">
+                <img src="images/doors/open/door11.png" class="door-11 open-door animate-left">
+            </a>
+            <a href="./classes/class12.html " target="_blank" >
+                <img src="images/doors/door_12.png" class="door-12 close-door animate-left">
+                <img src="images/doors/open/door12.png" class="door-12 open-door animate-left">
+            </a>
+        </div>
+        <div class="bottom-space"></div>
+    </section>
+
+
+
+<!--Notes App Page---------------------------------------------------------------->
+
+<section class="container note-app" id="notes">
+    <div class="heading common-heading">
+        <h1 class="gold animate-top">Write!</h1>
+        <h3 class="black animate-bottom600">take down points</h3>
+    </div>
+        <form>
+            <input type="text" class="todo-input animate-left">
+            <button class="todo-button animate-top" type="submit">
+                <ion-icon name="add-outline" class="animate-left600 bot"></ion-icon>
+            </button>
+            <div class="select animate-right">
+                <select name="todos" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>
+            </div>
+        </form>
+        <div class="todo-container">
+            <ul class="todo-list"></ul>
+        </div>
+</section>
+
+
+<!-- How do I upload my work Page ---------------------------------------------------------------->
+<section class="container upload-page" id="upload">
+    <div class="common-heading">
+        <h1 class="gold animate-top">Upload</h1>
+        <h3 class="black animate-bottom600">How to upload your works?</h3>
+    </div>
+    <div class="upload-info">
+        <p class="animate-left"> Audio files and gifs are not allowed.
+            If it is a sketch / drawing, scan it or take a clear photo of it. If it is a video, make sure that the video is clear and audible. While sending the email, do mention the student's name, class and section. 
+        </p>  
+        <p class="animate-left600">To upload your work, send it to the following mail: <span>xyz@gmail.com</span></p>
+    </div>
+    <div class="allowed-table">
+        <div class="allowed-heading animate-left900">ALLOWED FORMATS</div>
+        <ul class="allowed-list">
+            <li class="allowed-item animate-left">JPG</li>
+            <li class="allowed-item animate-left">PNG</li>
+            <li class="allowed-item animate-left">MP4</li>
+            <li class="allowed-item animate-left">AVI</li>
+        </ul>
+    </div>
+    <div class="bottom-space"></div>
+</section>
+
+<!-- Footer -------------------------------------------------------------------------->
+<!--Footer---------------------------------------------------------------->
+<div class="whole-footer">
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <footer>
+        <div class="footer-info animate-left">
+            <h1 class="animate-left">Info</h1>
+            <p class="animate-left">Website made by Ameen Ahmed</p>
+            <p class="animate-left600">Email: <span>mushyahamed007@gmail.com</span></p>
+            <p class="animate-left900">Dunes International School</p>
+        </div>
+        <div class="footer-logo animate-bottom">
+            <img src="images/logo.png" class="logo">
+        </div>
+        <div class="footer-contact animate-right">
+            <h1 class="animate-right">Suggestions</h1>
+            <p class="animate-right">Want to contribute in making this website better?</p>
+            <p class="animate-right600">Email me at <span>xyz@gmail.com</span></p>
+            <p class="animate-right900">I will look into it soon. Thank You!</p>
+        </div>
+        <p class="footer-credit animate-bottom">Credits: Landing Page Image by 
+            <a target="_blank" href="https://unsplash.com/@jeremybishop">Jeremy Bishop</a> from Unsplash
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Link for the script of JS -->
+    <script src="./js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
